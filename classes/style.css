@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+.colourprop{
+    background-color: blue;
+    color: red;
+}
+.colour2prop{
+    background-color: brown;
+    color: green;
+
+}
+#box2{
+
+background-color: blueviolet;
+width: 50%;
+text-align: center;
+
+margin: 10px;
+padding: 10px;
+}

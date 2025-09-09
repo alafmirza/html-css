@@ -1,0 +1,31 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    border-top: solid black 10px;
+    border-left: solid green 10px;
+    border-right: solid green 10px;
+    border-bottom: solid green 10px;
+    animation: loader 3s linear 1s infinite normal;
+}
+
+
+@keyframes loader {
+    from
+    {
+        transform: rotate(0deg);
+        background-color: blue;
+        border-top-color: black;
+    }
+
+    to
+    {
+        transform: rotate(360deg);
+        background-color: cornflowerblue;
+        border-top-color: brown;
+        
+    
+    }
+    
+}

@@ -1,0 +1,30 @@
+div{
+    height:300px;
+    width: 300px;
+    background-color: blue;
+
+    animation-name: myanime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 4;
+    animation-direction: normal;
+
+    
+
+}
+
+@keyframes myanime{
+      from
+    {
+        translate: 0px;
+        background-color: blue;
+     
+    }
+      to
+    {
+        background-color: yellow;
+    translate: 300px;
+    }
+    
+}

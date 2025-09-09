@@ -1,0 +1,11 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(105, 2, 2);
+}
+@media (width>=200px) and (width<=400px){
+    div{
+        background-color: blue;
+    }
+    
+}
